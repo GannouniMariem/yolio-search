@@ -1,0 +1,46 @@
+body{
+    background-image: url('./assetes/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    background:url('./assetes/star.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+
+.form-control::placeholder{
+    color: #FFFFFF;
+}
+
+.btn{
+    padding: 14px 40px;
+    background-color: #FFFFFF;
+    color: #4440E6;
+    font-weight: bold;
+}
+
+
+.btn:hover{
+    padding: 14px 40px;
+    background-color: #4440E6;
+    color: #FFFFFF;
+}
+
+.card-title{
+    color: #00024F;
+}
+.card-text{
+    color: #4440E6;
+    font-weight: bold;
+}
